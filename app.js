@@ -42,7 +42,7 @@ function open(){
             heart.classList.add("heart")
             document.body.appendChild(heart)
             heart.style.left =(Math.random()*100)+"vw"
-        },1500)
+        },1100)
 },10000)
 }
 
