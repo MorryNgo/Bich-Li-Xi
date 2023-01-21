@@ -31,7 +31,7 @@
 }
 
 .heart{ 
-    color:rgb(252, 106, 106);
+    color:rgb(255, 120, 120);
     font-size:80px;
     position:fixed;
     top:101%;
@@ -94,6 +94,7 @@
     justify-content: center;
     height: 200px;
     width: 300px;;
+    font-size: 50px;;
     background-image:url(https://img.freepik.com/free-photo/white-paper-texture_1194-5416.jpg?w=360);
     z-index:0;
     margin:auto

@@ -32,6 +32,7 @@ function open(){
             for (let i = 0; i < text.length; i++){
                 setTimeout(() => {
                     lixi.innerHTML += text[i]+" "
+                    lixi.innerHTML.style.fontSize = "10px"
                 }, i*1000);
             }
             }, 4000);
