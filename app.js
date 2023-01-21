@@ -10,9 +10,9 @@ nap.addEventListener("click",open)
 
 function open(){
     nap.style.animation='open linear 3s forwards';
-    setTimeout(function(){lixi.style.animation='push-up linear 4s forwards';   
     song.play()
     song.loop = true;
+    setTimeout(function(){lixi.style.animation='push-up linear 4s forwards';   
     nap.style.zIndex=0;},3000)
     setTimeout(function(){
         thiep.style.animation='disappeared linear 2s forwards'
