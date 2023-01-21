@@ -5,7 +5,7 @@ const lixi = document.querySelector("body > div > div.li-xi")
 const song = document.getElementById("song")
 const heart = document.createElement("div")
 
-const text = ['Tuy','anh','hong','giàu',':<','nhưng','anh','tốt',';>','nên','2023','này',"hãy","để","anh","trao","cho","em",'cái',"đời","trai","này","nhé!",";3",'❤❤❤']
+const text = ['Tuy','anh','hong','giàu',',','hỏng','có','tiền','lì','xì','em',':<','nhưng','anh','tốt',';>','nên','2023','này',"hãy","để","anh","trao","cho","em",'cái',"đời","trai","này","nhé!",";3",'❤❤❤']
 nap.addEventListener("click",open)
 function open(){
     nap.style.animation='open linear 3s forwards';
