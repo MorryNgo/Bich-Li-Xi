@@ -7,10 +7,10 @@ const heart = document.createElement("div")
 
 const text = ['Tuy','anh','nghèo','nhưng','anh','tốt','nên','2023','này',"hãy","để","anh","lì","xì","đời","trai","này","cho","em","nhé!",";3",'❤❤❤']
 nap.addEventListener("click",open)
-
 function open(){
     nap.style.animation='open linear 3s forwards';
-    song.play()
+    song.load()
+    song.play();    
     song.loop = true;
     setTimeout(function(){lixi.style.animation='push-up linear 4s forwards';   
     nap.style.zIndex=0;},3000)
