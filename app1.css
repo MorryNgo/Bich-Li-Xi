@@ -1,0 +1,101 @@
+.body{
+    background-color: whitesmoke;
+}
+.box{
+
+    height: 500px;
+    width: 200px;
+    position:relative;
+    top:150px;
+    margin: auto;
+    background-image: url(./thiep.png) ; 
+    background-size: cover;
+}
+.bia{
+    background-image: url(./thiep.png); 
+  height: 450px;
+    width: 200px;
+    position: absolute;
+    bottom:0px;
+    background-size: cover;
+    z-index:2
+}
+.nap{
+    position: relative;
+    border-left:100px solid transparent;
+    border-right:100px solid transparent;
+    border-top:100px solid #931f1f;
+   transform-origin: top;
+   cursor: pointer;
+   z-index:2
+}
+
+.heart{ 
+    color:rgb(252, 106, 106);
+    font-size:80px;
+    position:fixed;
+    top:101%;
+    animation:flyup ease-in 1s infinite; 
+    z-index:-1
+}
+
+@keyframes open{
+    from{
+        transform:rotateX(0deg)
+    }
+    to{
+        transform:rotateX(180deg)
+    }
+}
+@keyframes push-up {
+    from{
+        top: 0px;
+    }
+    to{
+        top:-200px;
+    }
+    
+}
+
+
+@keyframes disappeared {
+    from{opacity:1}
+    to{opacity:0}
+}
+
+@keyframes sizeup {
+    from{
+        height: 100px;
+        width: 100px;;
+    }
+    to{
+        width:350px;
+        height:350px;
+    }
+}
+
+@keyframes changecolor {
+    from{
+        background-color: whitesmoke;
+    }
+    to{background-color:rgba(8, 136, 255, 0.432)}
+}
+
+@keyframes flyup {
+    from{top:101%}
+    to{top:-101%}
+}
+/*     animation: open linear 2s; */
+
+.li-xi{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 200px;;
+    background-image:url(https://img.freepik.com/free-photo/white-paper-texture_1194-5416.jpg?w=360);
+    z-index:0;
+    margin:auto
+}
+
