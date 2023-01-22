@@ -9,7 +9,7 @@ const text = ['Gửi','Mylove','của','anh',':','Tuy','anh','hong','giàu',',',
 nap.addEventListener("click",open)
 function open(){
     nap.style.animation='open linear 3s forwards';
-    song.load()
+
     song.play();    
     song.loop = true;
     setTimeout(function(){lixi.style.animation='push-up linear 4s forwards';   
