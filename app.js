@@ -3,9 +3,9 @@ const thiep= document.querySelector("body > div > div.bia")
 const nap = document.querySelector("body > div > div.nap");
 const lixi = document.querySelector("body > div > div.li-xi")
 const song = document.getElementById("song")
-const heart = document.createElement("div")
 
-const text = ['Tuy','anh','hong','giàu',',','hổng','có','tiền','lì','xì','cho','em',':<','nhưng','anh','tốt',';>','nên','2023','này',"hãy","để","anh","trao","cho","em",'cái',"đời","trai","này","nhé!",";3",'❤❤❤']
+
+const text = ['Gửi','Mylove','của','anh',':','Tuy','anh','hong','giàu',',','hổng','có','tiền','lì','xì','cho','em',':<','nhưng','anh','tốt',';>','nên','2023','này',"hãy","để","anh","trao","tình","yêu",'này',"cho","em","đến","sau","này","nhé!",";3",'❤❤❤']
 nap.addEventListener("click",open)
 function open(){
     nap.style.animation='open linear 3s forwards';
@@ -38,6 +38,7 @@ function open(){
             document.body.style.animation="changecolor linear 1s forwards"
      
         setInterval(function(){
+            const heart = document.createElement("div")
             heart.innerHTML="❤"
             heart.classList.add("heart")
             document.body.appendChild(heart)
