@@ -18,7 +18,7 @@ function open(){
         thiep.style.animation='disappeared linear 2s forwards'
         box.style.background= 'transparent'
         nap.style.animation='disappeared linear 2s forwards'
-        setTimeout(() => {
+        setInterval(() => {
          nap.remove()
          thiep.remove()
         }, 3000);
@@ -26,7 +26,6 @@ function open(){
     setTimeout(function(){
     
         box.style.width="auto"
-        box.style.height=0
         lixi.style.animation='sizeup linear 3s forwards'
             setTimeout(() => {
             for (let i = 0; i < text.length; i++){
@@ -43,6 +42,7 @@ function open(){
             heart.classList.add("heart")
             document.body.appendChild(heart)
             heart.style.left =(Math.random()*100)+"vw"
+            heart.style.animationDuration=(Math.random()*5)+2+"s"
         },1100)
 },10000)
 }

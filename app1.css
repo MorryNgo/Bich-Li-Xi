@@ -35,7 +35,7 @@
     font-size:65px;
     position:fixed;
     top:101%;
-    animation:flyup ease-in 3s infinite; 
+    animation:flyup ease-in  infinite; 
     z-index:-1
 }
 
