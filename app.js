@@ -18,7 +18,7 @@ function open(){
         thiep.style.animation='disappeared linear 2s forwards'
         box.style.background= 'transparent'
         nap.style.animation='disappeared linear 2s forwards'
-        setInterval(() => {
+        setTimeout(() => {
          nap.remove()
          thiep.remove()
         }, 3000);
