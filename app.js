@@ -26,7 +26,6 @@ function open(){
     setTimeout(function(){
     
         box.style.width="auto"
-   /*      lixi.innerHTML='bt' */
         lixi.style.animation='sizeup linear 3s forwards'
             setTimeout(() => {
             for (let i = 0; i < text.length; i++){
